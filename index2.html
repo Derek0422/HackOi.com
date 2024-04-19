@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <img src="WhatsApp Image 2024-04-19 at 16.23.40_a5d1b79f.jpg" alt="" width="100" height="100">
+        <p id="demo" style="display: block;"></p>
+        <input id="inp1" type="text" placeholder="Username">
+        <input id="inp2" type="password" placeholder="Password" maxlength="6">
+        <a href=""></a>
+        <div class="con">
+        <button  class="bbnt" onclick="btn()">Login</button>
+        <button   class="bbn"  onclick="btn2()" id="bbb"> <div class="loader"></div> </button>
+        <a href="index.html" id="bbbbt">
+        <button>Oi</button>
+    </a>
+    </div>
+        </a>
+        <p id="note"><span>Note:</span>Do not enclose your information to others!</p>
+    </div>
+    <script>
+        var x=document.getElementById("inp1");
+        var y=document.getElementById("inp2");
+      function btn() {
+        var txt;
+        // if (x.value === "" && y.value === "") {
+        //     txt="Incorrect Username or Password";
+        //     document.getElementById("inp1")
+        // .style.border="2px solid red";
+        // document.getElementById("inp2")
+        // .style.border="2px solid red";
+        // document.getElementById("inp1")
+        // .style.color="red";
+        // document.getElementById("inp2")
+        // .style.color="red";
+        // document.getElementById("note").
+        // innerHTML="Contact Mentor For Correct Information";
+        // }
+       
+        document.getElementById("bbb")
+        .style.visibility="visible";
+        // document.getElementById("demo").
+        // innerHTML=txt;
+      }
+
+
+    //   document.getElementById("demo")
+    //     .innerHTML="Incorrect Username or Password";
+
+    setTimeout(btn2,30000);
+      function btn2 () {
+       window.location.assign("https://www.bible.com/bible/59/GEN.1.ESV");
+      }
+
+
+
+    </script>
+</body>
+</html>
